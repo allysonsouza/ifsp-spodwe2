@@ -20,6 +20,12 @@
 
 <hr style="border-color: #379936; margin: 2em 0;"/>
 
+> [!TIP]
+> **Eloquent JavaScript**: você pode acessar a versão web do livro traduzido no link:
+> https://braziljs.github.io/eloquente-javascript/
+
+<hr style="border-color: #379936; margin: 2em 0;"/>
+
 Este repositório é destinado a armazenar exemplos programados em sala, exercícios, bem como demais materiais didáticos relacionados ao curso/unidade curricular/disciplina. O repositório pode ser **"forkado"** (_bifurcado_) pelos estudantes para terem acesso ao conteúdo e desenvolverem suas atividades no diretório `📁 aluno`, o qual sempre permanecerá vazio no repositório original.
 
 ## Estrutura de pastas 📁
