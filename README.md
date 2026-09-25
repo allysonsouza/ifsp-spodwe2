@@ -73,3 +73,19 @@ O GitHub irá gerenciar caso haja alterações a serem sincronizadas no seu fork
 -   **Push**: comando que envia os commits locais para o repositório remoto, atualizando o repositório remoto com as alterações feitas localmente.
 
 -   **Sync**: processo de sincronização entre repositório local e remoto, garantindo que ambos tenham as mesmas alterações atualizadas. Pode envolver tanto pull quanto push dependendo da situação.
+
+# Referências Bibliográficas
+
+## Livros
+
+FLANAGAN, David. **JavaScript: the definitive guide**. 7. ed. Sebastopol: O'Reilly Media, 2020.
+
+HAVERBEKE, Marijn. **Eloquent JavaScript**: a modern introduction to programming. 4. ed. San Francisco: No Starch Press, 2024.
+
+## Sites
+
+BOS, Wes. **Closures**. Disponível em: https://wesbos.com/javascript/03-the-tricky-bits/closures#examples-of-closures
+
+**Mozilla Developer Network**. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/
+
+YETAYEH, Asabeneh. **30 Days of JavaScript**. Disponível em: https://github.com/Asabeneh/30-Days-Of-JavaScript
