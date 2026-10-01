@@ -2,7 +2,7 @@
 
 Use a API do DOM para implementar as funcionalidades desta página de blog. Escreva o código em `script.js` e utilize os campos da barra lateral para personalizar a página.
 
-As atividades de 1 a 6 devem responder às alterações feitas nos controles, sem recarregar a página. A atividade 7 é uma manipulação feita uma única vez quando o script é executado. Como o script é carregado no `<head>`, garanta que o HTML já tenha sido interpretado antes de selecionar ou manipular seus elementos.
+As atividades de 1 a 6 devem responder às alterações feitas nos controles, sem recarregar a página. As atividades 7 e 8 são manipulações feitas uma única vez quando o script é executado. Como o script é carregado no `<head>`, garanta que o HTML já tenha sido interpretado antes de selecionar ou manipular seus elementos.
 
 ## 1. Alterar a cor de fundo
 
@@ -41,9 +41,16 @@ As atividades de 1 a 6 devem responder às alterações feitas nos controles, se
 - No `<article>` correspondente, adicione uma etiqueta com o texto **Mais recente**. A tarefa deve funcionar sem adicionar event listeners, pois os posts e suas datas já estão no HTML.
 - Evite criar mais de uma etiqueta para o mesmo post caso o código seja executado novamente.
 
+## 8. Inserir um aviso entre os posts
+
+- Crie pelo JavaScript um bloco de aviso com: título, uma breve descrição
+- Insira o bloco entre o terceiro e o quarto post, sem editar diretamente o HTML. Ele deve aparecer na sequência da grade junto com os artigos.
+- Monte os elementos com métodos da DOM API, como `createElement`, `textContent` e `insertBefore` ou `before`. Evite montar o conteúdo com `innerHTML`.
+
 ## Critérios de conclusão
 
 - Os controles funcionam sem recarregar a página.
 - A busca vazia restaura todos os posts.
 - A etiqueta **Mais recente** aparece no post com a maior data e não altera os demais.
+- O aviso ou publicidade aparece entre o terceiro e o quarto post, sem duplicação.
 - O código manipula os elementos existentes sempre que possível, sem reconstruir toda a página.
